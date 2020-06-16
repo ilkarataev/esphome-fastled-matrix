@@ -2,6 +2,12 @@
 component for writing effects for LED matrixes
 
 **At the moment of commit it works only with esphome:dev branch!**
+For build with this component you need build in dev enviroment  
+Can use docker:  
+``` docker run --rm --net=host -it -p 6052:6052 -v "${PWD}"/:/config esphome/esphome:dev```  
+Where is ${PWD}"/ is pwd with yaml.  
+You need to add custom_components path in the same directory with yaml.  
+Build and upload it from http://127.0.0.1:6052   
 
 ## Example usage:
 
